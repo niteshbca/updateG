@@ -1,0 +1,72 @@
+/* InputForm.module.css */
+.form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  .forms{
+    margin: 10px;
+    border: 5px solid red;
+  }
+  
+  .formRow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .label {
+    font-weight: bold;
+    /* flex-grow: 1; */
+    margin-right: 10px;
+    width: 150px; /* Set a fixed width to align labels */
+  }
+.custom{
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: #407ab8;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+  
+  .input {
+    flex-grow: 1;
+    display: none; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+   
+    background-color: rgba(218, 216, 224, 0.8);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .dateInput {
+    padding: 8px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #btn {
+  width: 100%;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

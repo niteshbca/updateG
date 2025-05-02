@@ -1,0 +1,93 @@
+
+
+@keyframes gradientAnimation {
+
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.outer {
+  position: absolute;
+  background: linear-gradient(-45deg, #fcb900, #9900ef, #ff6900, #00ff07);
+  background-size: 400% 400%; /* Required for gradient animation */
+  animation: gradientAnimation 12s ease infinite;
+  top: 0px;
+  padding: 20px;
+  min-width: 100vw;
+  width: auto;
+  height: auto;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.completeBlock {
+  display: none;
+}
+
+.show {
+  margin:20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color :rgba(218, 216, 224, 0.6);
+}
+
+table {
+  /* width: 100%;
+  border-collapse: collapse; */
+  width: 100%;
+  border: 2px solid red;
+  border-collapse: collapse;
+  background-color: rgba(218, 216, 224, 0.6);
+  border-radius: 10px;
+    overflow: hidden;
+    color:white;
+}
+
+th{
+  background-color: rgba(218, 216, 224, 0.6);
+  /* rgba(218, 216, 224, 0.6); */
+  color:black;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight:300;
+}
+td {
+  /* border: 1px solid black;
+  padding: 8px;
+  text-align: left; */
+  color: black;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 1rem;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.sign {
+  display: flex;
+  justify-content: center;
+}
+
+.submission {
+  display: flex;
+  margin: 2px;
+  margin-right: 5px;
+}
+
+.submission div {
+  margin-right: 7px;
+}
+
+.grinDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+}

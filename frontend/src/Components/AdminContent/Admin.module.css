@@ -1,0 +1,86 @@
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradientBackground {
+  width: 100vw;
+  min-height: 100vh;
+  margin: auto;
+  padding: 20px;
+  background: linear-gradient(-45deg, #fcb900, #9900ef, #ff6900, #00ff07);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+
+.admin {
+  margin: 25px;
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ccc;
+  border-radius: 15px;
+  max-width: 700px;
+}
+.name {
+  padding: 5px;
+  /* border-radius: 15px; */
+  /* border: 2px solid black; */
+  cursor: pointer;
+  display: flex;
+  /* color:; */
+  justify-content: center;
+  align-items: center;
+}
+.right {
+  display: flex;
+  flex-direction: row;
+}
+.rightOne {
+  margin: 10px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+  width: 50px;
+  background-color:rgba(255, 255, 255, 0.8);
+ 
+}
+.rightSecond {
+  margin: 10px;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  width: 90px;
+  background-color: red;
+  color: white;
+}
+.rightOne:hover {
+  background-color: #16a085;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.2) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.15) 0 4px 10px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0;
+  transform: scale(1.05);
+  border: 1px solid #16a085;
+}
+.rightSecond:hover {
+  background-color: #16a085;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.2) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.15) 0 4px 10px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0;
+  transform: scale(1.05);
+  border: 1px solid #16a085;
+}
+.list {
+  width: 90%;
+  margin-left: 40px;
+  background-color: red;
+}

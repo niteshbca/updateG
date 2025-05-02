@@ -1,0 +1,36 @@
+/* Table.module.css */
+
+.table {
+    width: 100%;
+    background-color: rgba(218, 216, 224, 0.6)
+    /* border-collapse: collapse; */
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f4f4f4;
+  }
+  
+  .table td input[type="text"] {
+    width: 100%; /* Make input fields take up full width */
+  }
+  
+  .table td input[type="number"] {
+    width: 90%; /* Make input fields take up full width */
+  }
+  
+  .table td input.textarea {
+    width: 100%; /* Make the textarea take up 100% of the horizontal space */
+    height: 100px; /* Adjust this value to increase the vertical height */
+    box-sizing: border-box; /* Ensure padding and borders are included in the width and height */
+    resize:both;
+  }
+
+
+  
